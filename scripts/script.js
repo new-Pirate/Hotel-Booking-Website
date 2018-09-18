@@ -1,36 +1,147 @@
-var userName = document.querySelector("input[name=name]");
-var userEmail = document.querySelector("input[name=email]");
+jQuery(document).ready(function() {
+    jQuery('.header_down').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeInUp',
+        offset: 400
+    });
 
-function check() {
-    var valueName = document.querySelector("input[name=name]").value;
-    var valueEmail = document.querySelector("input[name=email]").value;
-    var regexpName = /^[A-Z]{1}[a-z]+$/g;
-    var regexpEmail = /[0-9a-z.-]+@[0-9a-z-]+\.[a-z]{2}/g;
-    var count = 0;
+    jQuery('.hotels_header').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeIn',
+        offset: 400
+    });
 
-    function validName() {
-        if (regexpName.test(valueName)) {
-            userName.style.border = '2px solid green';
-        } else {
-            userName.style.border = '2px solid #FF0000';
-            count++;
-        };
-    }
+    jQuery('.hotels_rooms_middle').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeIn',
+        offset: 400
+    });
 
-    function validEmail() {
-        if (regexpEmail.test(valueEmail)) {
-            userEmail.style.border = '2px solid green';
-        } else {
-            userEmail.style.border = '2px solid #FF0000';
-            count++;
-        };
-    }
+    jQuery('.hotels_rooms_great').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeIn',
+        offset: 400
+    });
 
-    validName();
-    validEmail();
+    jQuery('.hotels_rooms_free').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeIn',
+        offset: 400
+    });
 
-    if (count == 0) {
-        alert("Confirm");
-        window.location.reload();
-    }
-}
+    jQuery('.hotels_rooms_clean').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeIn',
+        offset: 400
+    });
+
+    jQuery('.hotels_rooms_enjoy').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeIn',
+        offset: 400
+    });
+
+    jQuery('.hotels_rooms_meet').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeIn',
+        offset: 400
+    });
+
+    jQuery('.hotels_btn').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeInUp',
+        offset: 400
+    });
+
+    jQuery('.activities_header').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated zoomIn',
+        offset: 400
+    });
+
+    jQuery('.activities_sports_skiing').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeInLeft',
+        offset: 400
+    });
+
+    jQuery('.activities_sports_boarding').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeInLeft',
+        offset: 400
+    });
+
+    jQuery('.activities_sports_cycling').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeInUp',
+        offset: 400
+    });
+
+    jQuery('.activities_sports_hiking').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeInRight',
+        offset: 400
+    });
+
+    jQuery('.activities_sports_trekking').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeInRight',
+        offset: 400
+    });
+
+
+    jQuery('.deluxe_header').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeIn',
+        offset: 400
+    });
+
+    jQuery('.deluxe_rooms_chose1').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeInLeft',
+        offset: 400
+    });
+
+    jQuery('.deluxe_rooms_chose2').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeIn',
+        offset: 400
+    });
+
+    jQuery('.deluxe_rooms_chose3').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeInRight',
+        offset: 400
+    });
+
+    jQuery('.deluxe_rooms_chose4').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeInLeft',
+        offset: 400
+    });
+
+    jQuery('.deluxe_rooms_chose5').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeInRight',
+        offset: 400
+    });
+
+    jQuery('.deluxe_btn').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeInUp',
+        offset: 400
+    });
+
+    jQuery('.winter').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeInRight',
+        offset: 400
+    });
+
+    jQuery('.news_header').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeIn',
+        offset: 400
+    });
+
+    jQuery('.news_wrap_chose1').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeInLeft',
+        offset: 400
+    });
+
+    jQuery('.news_wrap_chose2').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeInUp',
+        offset: 400
+    });
+
+    jQuery('.news_wrap_chose3').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeInRight',
+        offset: 400
+    });
+
+    jQuery('.news_btn').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeInUp',
+        offset: 400
+    });
+
+    jQuery('footer').addClass("secret").viewportChecker({
+        classToAdd: 'vision animated fadeInUp',
+        offset: 200
+    });
+});
