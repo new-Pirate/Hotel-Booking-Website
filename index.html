@@ -5,12 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Title</title>
 	<link rel="stylesheet" href="packages/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="packages/animate/animate.css">
-	<link rel="stylesheet" href="styles/style.css">
+	<!-- <link rel="stylesheet" href="packages/animate/animate.css"> -->
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header class="menu">
-		<div class="logo">
+		<div class="logo" role="banner">
 			<a href="#">
 				<img src="images/logo.png" alt="logo">
 			</a>
@@ -35,7 +35,7 @@
 			<div class="perfection">PERFECTION.</div>
 			<div class="invited">AND YOU ARE INVITED.</div>
 		</div>
-		<div class="header_down_forms">
+		<div class="header_down_forms" role="form">
 			<input type="text" placeholder="Arrival">
 			<input type="text" placeholder="Departure">
 			<input type="text" placeholder="Chosse a Room">
@@ -43,155 +43,185 @@
 			<input type="button" value="BOOK NOW">
 		</div>
 	</header>
-	<section class="hotels">
-		<div class="hotels_header">AWARD WINNING HOTELS</div>
-		<div class="hotels_rooms">
-			<div class="hotels_rooms_middle">
-				<img src="images/hotels_chose1.jpg" alt="hotels_chose1">
-				<h3>Middle of downtown</h3>
-				<p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch.</p>
+	<main>
+		<div class="hotels">
+			<div class="hotels_header">AWARD WINNING HOTELS</div>
+			<div class="hotels_rooms">
+				<figure class="hotels_rooms_middle">
+					<img src="images/hotels_chose1.jpg" alt="hotels_chose1">
+					<figcaption>
+						<h3>Middle of downtown</h3>
+						<p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch.</p>
+					</figcaption>
+				</figure>
+				<figure class="hotels_rooms_great">
+					<img src="images/hotels_chose2.jpg" alt="hotels_chose2">
+					<figcaption>
+						<h3>Great Environment</h3>
+						<p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch.</p>
+					</figcaption>
+				</figure>
+				<figure class="hotels_rooms_free">
+					<img src="images/hotels_chose3.jpg" alt="hotels_chose3">
+					<figcaption>
+						<h3>Free Breakfast</h3>
+						<p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch.</p>
+					</figcaption>
+				</figure>
+				<figure class="hotels_rooms_clean">
+					<img src="images/hotels_chose4.jpg" alt="hotels_chose4">
+					<figcaption>
+						<h3>We Clean Everyday</h3>
+						<p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch.</p>
+					</figcaption>
+				</figure>
+				<figure class="hotels_rooms_enjoy">
+					<img src="images/hotels_chose5.jpg" alt="hotels_chose5">
+					<figcaption>
+						<h3>Enjoy nightlife</h3>
+						<p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch.</p>
+					</figcaption>
+				</figure>
+				<figure class="hotels_rooms_meet">
+					<img src="images/hotels_chose6.jpg" alt="hotels_chose6">
+					<figcaption>
+						<h3>Meet New People</h3>
+						<p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch.</p>
+					</figcaption>
+				</figure>
 			</div>
-			<div class="hotels_rooms_great">
-				<img src="images/hotels_chose2.jpg" alt="hotels_chose2">
-				<h3>Great Environment</h3>
-				<p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch.</p>
-			</div>
-			<div class="hotels_rooms_free">
-				<img src="images/hotels_chose3.jpg" alt="hotels_chose3">
-				<h3>Free Breakfast</h3>
-				<p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch.</p>
-			</div>
-			<div class="hotels_rooms_clean">
-				<img src="images/hotels_chose4.jpg" alt="hotels_chose4">
-				<h3>We Clean Everyday</h3>
-				<p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch.</p>
-			</div>
-			<div class="hotels_rooms_enjoy">
-				<img src="images/hotels_chose5.jpg" alt="hotels_chose5">
-				<h3>Enjoy nightlife</h3>
-				<p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch.</p>
-			</div>
-			<div class="hotels_rooms_meet">
-				<img src="images/hotels_chose6.jpg" alt="hotels_chose6">
-				<h3>Meet New People</h3>
-				<p>We fill the space content. High-quality, beautiful, solid and pleasant to the touch.</p>
+			<div class="hotels_btn">
+				<input type="button" value="MORE">
 			</div>
 		</div>
-		<div class="hotels_btn">
-			<input type="button" value="MORE">
-		</div>
-	</section>
-	<section class="activities">
-		<div class="activities_header">
-			WINTER ACTIVITIES
-		</div>
-		<div class="activities_sports">
-			<div class="activities_sports_skiing">
-				<div class="activities_sports_skiing_inner">
-					<h3>SKING</h3>
-					<p>We fill the space content. High-quality, beautiful, solid and</p>
+		<div class="activities">
+			<div class="activities_header">
+				WINTER ACTIVITIES
+			</div>
+			<div class="activities_sports">
+				<div class="activities_sports_skiing">
+					<article class="activities_sports_skiing_inner">
+						<h3>SKING</h3>
+						<p>We fill the space content. High-quality, beautiful, solid and</p>
+					</article>
 				</div>
-			</div>
-			<div class="activities_sports_boarding">
-				<div class="activities_sports_boarding_inner">
-					<h3>BOARDING</h3>
-					<p>We fill the space content. High-quality, beautiful, solid and</p>
+				<div class="activities_sports_boarding">
+					<article class="activities_sports_boarding_inner">
+						<h3>BOARDING</h3>
+						<p>We fill the space content. High-quality, beautiful, solid and</p>
+					</article>
 				</div>
-			</div>
-			<div class="activities_sports_cycling">
-				<div class="activities_sports_cycling_inner">
-					<h3>CYCLING</h3>
-					<p>We fill the space content. High-quality, beautiful, solid and</p>
+				<div class="activities_sports_cycling">
+					<article class="activities_sports_cycling_inner">
+						<h3>CYCLING</h3>
+						<p>We fill the space content. High-quality, beautiful, solid and</p>
+					</article>
 				</div>
-			</div>
-			<div class="activities_sports_hiking">
-				<div class="activities_sports_hiking_inner">
-					<h3>HIKING</h3>
-					<p>We fill the space content. High-quality, beautiful, solid and</p>
+				<div class="activities_sports_hiking">
+					<article class="activities_sports_hiking_inner">
+						<h3>HIKING</h3>
+						<p>We fill the space content. High-quality, beautiful, solid and</p>
+					</article>
 				</div>
-			</div>
-			<div class="activities_sports_trekking">
-				<div class="activities_sports_trekking_inner">
-					<h3>TREKKING</h3>
-					<p>We fill the space content. High-quality, beautiful, solid and</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="deluxe">
-		<div class="deluxe_header">
-			DELUXE ROOMS WITH A BEAUTIFUL VIEW
-		</div>
-		<div class="deluxe_rooms">
-			<div class="deluxe_rooms_chose1">
-				<img src="images/deluxe_chose1.jpg" alt="rooms_chose1">
-				<h3>Magna pars studiorum</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			</div>
-			<div class="deluxe_rooms_chose2">
-				<img src="images/deluxe_chose2.jpg" alt="rooms_chose2">
-				<h3>Magna pars studiorum</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			</div>
-			<div class="deluxe_rooms_chose3">
-				<img src="images/deluxe_chose3.jpg" alt="rooms_chose3">
-				<h3>Magna pars studiorum</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			</div>
-			<div class="deluxe_rooms_chose4">
-				<img src="images/deluxe_chose4.jpg" alt="deluxe_chose4">
-				<h3>Magna pars studiorum</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			</div>
-			<div class="deluxe_rooms_chose5">
-				<img src="images/deluxe_chose5.jpg" alt="rooms_chose5">
-				<h3>Magna pars studiorum</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			</div>
-		</div>
-		<div class="deluxe_btn">
-			<input type="button" value="MORE">
-		</div>
-	</section>
-	<section class="winter">
-		<div class="winter_wrap">
-			<div class="winter_wrap_text">
-				<h2>WINTER <br> WEATHER</h2>
-				<p>We fill the space content. High-quality, beautiful, solid and <br> pWe fill the space content. High-quality, beautiful, solid and p.</p>
-				<div class="winter_btn">
-					<input type="button" value="MORE">
+				<div class="activities_sports_trekking">
+					<article class="activities_sports_trekking_inner">
+						<h3>TREKKING</h3>
+						<p>We fill the space content. High-quality, beautiful, solid and</p>
+					</article>
 				</div>
 			</div>
 		</div>
-	</section>
-	<section class="news">
-		<div class="news_header">
-			NEWS FROM US
-		</div>
-		<div class="news_wrap">
-			<div class="news_wrap_chose1">
-				<img src="images/news_chose1.jpg" alt="news_chose1">
-				<h3>Sedial eiusmod tempor</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiuconsectetur adipisici elit</p>
+		<div class="deluxe">
+			<div class="deluxe_header">
+				DELUXE ROOMS WITH A BEAUTIFUL VIEW
 			</div>
-			<div class="news_wrap_chose2">
-				<img src="images/news_chose2.jpg" alt="news_chose2">
-				<h3>Sedial eiusmod tempor</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiuconsectetur adipisici elit</p>
+			<div class="deluxe_rooms">
+				<figure class="deluxe_rooms_chose1">
+					<img src="images/deluxe_chose1.jpg" alt="rooms_chose1">
+					<figcaption>
+						<h3>Magna pars studiorum</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</figcaption>
+				</figure>
+				<figure class="deluxe_rooms_chose2">
+					<img src="images/deluxe_chose2.jpg" alt="rooms_chose2">
+					<figcaption>
+						<h3>Magna pars studiorum</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</figcaption>
+				</figure>
+				<figure class="deluxe_rooms_chose3">
+					<img src="images/deluxe_chose3.jpg" alt="rooms_chose3">
+					<figcaption>
+						<h3>Magna pars studiorum</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</figcaption>
+				</figure>
+				<figure class="deluxe_rooms_chose4">
+					<img src="images/deluxe_chose4.jpg" alt="deluxe_chose4">
+					<figcaption>
+						<h3>Magna pars studiorum</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</figcaption>
+				</figure>
+				<figure class="deluxe_rooms_chose5">
+					<img src="images/deluxe_chose5.jpg" alt="rooms_chose5">
+					<figcaption>
+						<h3>Magna pars studiorum</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</figcaption>
+				</figure>
 			</div>
-			<div class="news_wrap_chose3">
-				<img src="images/news_chose3.jpg" alt="news_chose3">
-				<h3>Sedial eiusmod tempor</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiuconsectetur adipisici elit</p>
+			<div class="deluxe_btn">
+				<input type="button" value="MORE">
 			</div>
 		</div>
-		<div class="news_btn">
-			<input type="button" value="MORE">
+		<div class="winter">
+			<div class="winter_wrap">
+				<article class="winter_wrap_text">
+					<h2>WINTER <br> WEATHER</h2>
+					<p>We fill the space content. High-quality, beautiful, solid and <br> pWe fill the space content. High-quality, beautiful, solid and p.</p>
+					<div class="winter_btn">
+						<input type="button" value="MORE">
+					</div>
+				</article>
+			</div>
 		</div>
-	</section>
+		<div class="news">
+			<div class="news_header">
+				NEWS FROM US
+			</div>
+			<div class="news_wrap">
+				<figure class="news_wrap_chose1">
+					<img src="images/news_chose1.jpg" alt="news_chose1">
+					<figcaption>
+						<h3>Sedial eiusmod tempor</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiuconsectetur adipisici elit</p>
+					</figcaption>
+				</figure>
+				<figure class="news_wrap_chose2">
+					<img src="images/news_chose2.jpg" alt="news_chose2">
+					<figcaption>
+						<h3>Sedial eiusmod tempor</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiuconsectetur adipisici elit</p>
+					</figcaption>
+				</figure>
+				<figure class="news_wrap_chose3">
+					<img src="images/news_chose3.jpg" alt="news_chose3">
+					<figcaption>
+						<h3>Sedial eiusmod tempor</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiuconsectetur adipisici elit</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="news_btn">
+				<input type="button" value="MORE">
+			</div>
+		</div>
+	</main>
 	<footer>
 		<div class="footer_wrap">
-			<div class="footer_wrap_adress">
+			<address class="footer_wrap_adress">
 				<div class="footer_wrap_adress_logo">
 					<a href="#">
 						<img src="images/logo.png" alt="logo">
@@ -206,27 +236,27 @@
 				<div class="footer_wrap_adress_email">
 					<i class="fa fa-envelope-o fa-inverse" aria-hidden="true"></i>free@psdfreebies.com
 				</div>
-			</div>
-			<div class="footer_wrap_menu">
-				<div class="footer_wrap_menu_home">
+			</address>
+			<div class="footer_wrap_menu" role="menubar">
+				<div class="footer_wrap_menu_home" role="menuitem">
 					<a href="#">HOME</a>
 				</div>
-				<div class="footer_wrap_menu_portfolio">
+				<div class="footer_wrap_menu_portfolio" role="menuitem">
 					<a href="#">PORTFOLIO</a>
 				</div>
-				<div class="footer_wrap_menu_contact">
+				<div class="footer_wrap_menu_contact" role="menuitem">
 					<a href="#">CONTACT</a>
 				</div>
-				<div class="footer_wrap_menu_about">
+				<div class="footer_wrap_menu_about" role="menuitem">
 					<a href="#">ABOUT</a>
 				</div>
-				<div class="footer_wrap_menu_blog">
+				<div class="footer_wrap_menu_blog" role="menuitem">
 					<a href="#">BLOG</a>
 				</div>
-				<div class="footer_wrap_menu_rooms">
+				<div class="footer_wrap_menu_rooms" role="menuitem">
 					<a href="#">ROOMS</a>
 				</div>
-				<div class="footer_wrap_menu_partnership">
+				<div class="footer_wrap_menu_partnership" role="menuitem">
 					<a href="#">PARTNERSHIP</a>
 				</div>
 			</div>
@@ -250,9 +280,8 @@
 			</div>
 		</div>
 	</footer>
-	<script src="packages/jquery/jquery-3.2.1.min.js"></script>
-	<script src="packages/viewport-checker/jquery.viewportchecker.min.js"></script>
+	<!-- <script src="packages/jquery/jquery-3.2.1.min.js"></script> -->
+	<!-- <script src="packages/viewport-checker/jquery.viewportchecker.min.js"></script> -->
 	<script src="scripts/script.js"></script>
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>
